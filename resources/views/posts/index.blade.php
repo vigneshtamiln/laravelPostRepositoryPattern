@@ -100,7 +100,7 @@
                     data: "id="+id,
                     success: function (response) {
                         alert("Deleted!", "Your record has been deleted.", "success");
-                        // location.reload();
+                        location.reload();
                     },
                     error: function (jqXhr) {
                         alert(jqXhr);
